@@ -1,0 +1,101 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+body{
+    font-family: Trebuchet, Arial, sans-serif; /* Семейство шрифтов */
+    font-size: 11pt; /* Размер основного шрифта в пунктах  */
+    background-color:#3B3F45; /* Цвет фона веб-страницы */
+    text-align: justify;
+  }
+
+
+  #header{
+    background-color: #4A4F56;
+    margin: auto;
+    color: #EB7E7F;
+  }
+  #container{
+    width: 700px;
+    margin: auto;
+  box-sizing: border-box;
+  text-align: center;
+  color: #DEDEDE;
+  border: 15px solid #FFFFFF;
+  }
+p{
+  text-align: justify;
+  font-size: large;
+  padding: 13px;
+  font-size: 16pt; /* Размер шрифта в пунктах */
+}
+span.a1:after {
+     content: "(for the next lesson about CSS)"; /* Добавляемый текст */
+     color: #FFFFFF; /* Цвет текста */
+     font-size: 70%;
+     padding: 10px; /* Поля вокруг текста */
+   }
+span.a2:after {
+        content: "(for more CSS manipulations)"; /* Добавляемый текст */
+        color: #FFFFFF; /* Цвет текста */
+        font-size: 70%;
+        padding: 10px; /* Поля вокруг текста */
+      }
+span.a3:after {
+           content: "(becouse they are awesome)"; /* Добавляемый текст */
+           color: #FFFFFF; /* Цвет текста */
+           font-size: 70%;
+           padding: 10px; /* Поля вокруг текста */
+         }
+span.a4:after {
+              content: "(hm...they always dissapear)"; /* Добавляемый текст */
+              color: #FFFFFF; /* Цвет текста */
+              font-size: 70%;
+              padding: 10px; /* Поля вокруг текста */
+            }
+  span.a6:after {
+                 content: "(for my friends)"; /* Добавляемый текст */
+                 color: #FFFFFF; /* Цвет текста */
+                 font-size: 70%;
+                 padding: 10px; /* Поля вокруг текста */
+               }
+   input:checked + span {
+    text-decoration: line-through;
+   }
+
+p:nth-child(2n+1){
+  background-color: #7A7593;
+}
+p:nth-child(2n){
+  background-color: #88849F;
+}
+p:hover{
+  background-color: #625E77;
+  border-top: 3px solid #FFFFFF;
+  border-bottom: 3px solid #FFFFFF;
+}
+  h1 {
+    font-family: Trebuchet, Arial, sans-serif; /* Семейство шрифтов */
+    font-weight: normal; /* Нормальное начертание текста  */
+    text-align: center;
+  }
+
+ h3 {
+  font-family: Trebuchet, Arial, sans-serif; /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста  */
+  text-align: center;
+ }
+ .high{
+   text-transform: uppercase;
+ }
+.capitalize{
+  text-transform: capitalize;
+}
+  #footer{
+  background-color: #4A4F56;
+  color: #EB7E73;
+  font-size: 18pt;
+  padding: 10px;
+  text-align: center;
+  }
